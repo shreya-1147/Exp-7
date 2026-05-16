@@ -7,7 +7,7 @@ function Student({ name, course, marks }) {
     <div className="student-card">
       <h2>{name}</h2>
       <p>Course: {course}</p>
-      <p>Marks: {marks}</p>
+      <p>Marks:{marks}</p>
     </div>
   )
 }
@@ -27,6 +27,6 @@ function App() {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <App/>
   </StrictMode>,
 )
